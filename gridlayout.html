@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width:1200px;
+            height: 400px;
+            background-color: aliceblue;
+            margin :0 auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+
+        }
+        .box:nth-child(odd) {
+            background-color: #00ff00;
+            height: 300px;
+        }
+        .box:nth-child(even)
+        {
+            background-color: #ff0000;
+            height: 300px;
+        }
+        // media query
+        
+        
+        @media screen and (min-width:375px) and (max-width: 768px){
+            main{
+                grid-template-columns: repeat(1,1fr);
+                display: grid;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div class="box">  box 1 </div>
+      <div class="box">  box 2 </div>
+        <div class="box">  box 3</div>
+          <div class="box">  box 4 </div>
+          </main>
+</body>
+</html>
