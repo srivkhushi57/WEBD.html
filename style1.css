@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="page">
+    <div class="header">Product Store</div>
+
+    <div class="content">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://via.placeholder.com/300" alt="Product Image">
+        </div>
+
+        <div class="card-body">
+          <h3 class="product-title">Wireless Headphones</h3>
+          <p class="product-desc">
+            High-quality sound with noise cancellation.
+          </p>
+
+          <div class="price-row">
+            <span class="price-current">₹2,999</span>
+            <span class="price-old">₹4,999</span>
+          </div>
+
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
