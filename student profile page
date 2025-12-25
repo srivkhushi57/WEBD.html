@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile Page</title>
+</head>
+
+<body>
+
+    <h1>Student Information</h1>
+    <hr>
+
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is KHUSHI.<br>
+        I am a computer science student.<br>
+        I am learning HTML, C++, and AI.
+    </p>
+
+    <h2>My Photo</h2>
+    <img src="student.jpg" width="200" height="200">
+
+    <h2>My Subjects</h2>
+    <ul>
+        <li>C Programming</li>
+        <li>C++</li>
+        <li>HTML</li>
+        <li>Data Structures</li>
+    </ul>
+
+    <h2>My Daily Schedule</h2>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>College</td>
+        </tr>
+        <tr>
+            <td>2:00 PM</td>
+            <td>Practice Coding</td>
+        </tr>
+        <tr>
+            <td>6:00 PM</td>
+            <td>Revision</td>
+        </tr>
+    </table>
+
+    <h2>Contact</h2>
+    <p>
+        Email: student@gmail.com<br>
+        Phone: 9999999999
+    </p>
+
+</body>
+</html>
